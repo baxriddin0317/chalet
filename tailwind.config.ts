@@ -8,11 +8,31 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        'brand': {
+          "title": "#394553",
+          "black": "#1A222C",
+          "blue": "#4a86cc",
+          "gray": "#5d5d5d",
+          "secondary": "#F5F8FA"
+        }
       },
+      fontFamily: {
+        'montserat': ['Montserrat', 'sans-serif']
+      },
+      maxWidth: {
+        'main': "1160px"
+      },
+      backgroundImage: {
+        'hero-gradient': "linear-gradient(180deg, #111111 50%, #F2295B00 100%)"
+      },
+      fontSize: {
+        'h1': ['64px', '1em'],
+        'h2': ['40px', '64px']
+      },
+      spacing: {
+        '19': "75px"
+      }
     },
   },
   plugins: [],
